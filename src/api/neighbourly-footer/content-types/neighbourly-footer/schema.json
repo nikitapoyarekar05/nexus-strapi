@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "neighbourly_footers",
+  "info": {
+    "singularName": "neighbourly-footer",
+    "pluralName": "neighbourly-footers",
+    "displayName": "NeighbourlyFooter"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "firstColumn": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.footer"
+    },
+    "secondColumn": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.footer"
+    },
+    "thirdColumn": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.footer"
+    }
+  }
+}

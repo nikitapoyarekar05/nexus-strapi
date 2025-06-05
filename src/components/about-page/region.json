@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_about_page_regions",
+  "info": {
+    "displayName": "region"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "keyCities": {
+      "type": "blocks"
+    }
+  }
+}

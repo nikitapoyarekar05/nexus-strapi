@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "privacy_policies",
+  "info": {
+    "singularName": "privacy-policy",
+    "pluralName": "privacy-policies",
+    "displayName": "privacy-policy"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "privacyPolicyTitle": {
+      "type": "string"
+    },
+    "privacyPolicyBody": {
+      "type": "blocks"
+    }
+  }
+}

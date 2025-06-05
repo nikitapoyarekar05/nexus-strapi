@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_testimonial_clients",
+  "info": {
+    "displayName": "Client"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "review": {
+      "type": "text"
+    }
+  }
+}

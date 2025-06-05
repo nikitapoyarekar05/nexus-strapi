@@ -1,0 +1,71 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_pages",
+  "info": {
+    "singularName": "about-page",
+    "pluralName": "about-pages",
+    "displayName": "about-page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "heroTitle": {
+      "type": "string",
+      "required": true
+    },
+    "whoWeAreTitle": {
+      "type": "string"
+    },
+    "whoWeAreBody": {
+      "type": "blocks"
+    },
+    "heroBody": {
+      "type": "blocks"
+    },
+    "whatMakesUsBoutiqueTitle": {
+      "type": "string"
+    },
+    "whatMakesUsBoutiqueBody": {
+      "type": "blocks"
+    },
+    "globalReachTitle": {
+      "type": "string"
+    },
+    "globalReachBody": {
+      "type": "blocks"
+    },
+    "coreValuesTitle": {
+      "type": "string"
+    },
+    "coreValuesBody": {
+      "type": "blocks"
+    },
+    "regionsTitle": {
+      "type": "string"
+    },
+    "regionsBody": {
+      "type": "blocks"
+    },
+    "readyToBeginTitle": {
+      "type": "string"
+    },
+    "readyToBeginBody": {
+      "type": "blocks"
+    },
+    "team": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-page.team-member"
+    },
+    "region": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-page.region"
+    },
+    "faqTitle": {
+      "type": "string"
+    }
+  }
+}

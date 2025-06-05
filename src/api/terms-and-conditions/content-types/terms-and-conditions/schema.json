@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "terms_and_conditionss",
+  "info": {
+    "singularName": "terms-and-conditions",
+    "pluralName": "terms-and-conditionss",
+    "displayName": "terms-and-conditions",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "tncTitle": {
+      "type": "string"
+    },
+    "tncBody": {
+      "type": "blocks"
+    }
+  }
+}
