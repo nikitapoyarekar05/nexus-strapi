@@ -6,10 +6,10 @@ module.exports = ({ env }) => {
   const connections = {
     mysql: {
       connection: {
-        host: env('DATABASE_HOST', 'localhost'),
+        host: env('DATABASE_HOST', 'ynentbguajdhmwovqqte.supabase.co'),
         port: env.int('DATABASE_PORT', 5432),
-        database: env('DATABASE_NAME'),
-        user: env('DATABASE_USERNAME'),
+        database: env('DB_NAME', 'postgres'),
+        user: env('DB_USER', 'postgres'),
         password: env('DATABASE_PASSWORD'),
         ssl: env.bool('DATABASE_SSL', false) && {
           key: env('DATABASE_SSL_KEY', undefined),
