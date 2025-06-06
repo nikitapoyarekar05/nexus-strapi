@@ -1,0 +1,331 @@
+{
+	"info": {
+		"_postman_id": "619d1c52-cd50-494d-98ad-bc771c523ff1",
+		"name": "nexus-strapi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43617686",
+		"_collection_link": "https://nikita-2590175.postman.co/workspace/Nikita's-Workspace~44773798-a8ed-4334-8d54-5306d4118fd9/collection/43617686-619d1c52-cd50-494d-98ad-bc771c523ff1?action=share&source=collection_link&creator=43617686"
+	},
+	"item": [
+		{
+			"name": "local",
+			"item": [
+				{
+					"name": "About page",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{localBaseUrl}}/api/about-page?populate=*",
+							"host": [
+								"{{localBaseUrl}}"
+							],
+							"path": [
+								"api",
+								"about-page"
+							],
+							"query": [
+								{
+									"key": "populate",
+									"value": "*"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Privacy policy",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{localBaseUrl}}/api/privacy-policy",
+							"host": [
+								"{{localBaseUrl}}"
+							],
+							"path": [
+								"api",
+								"privacy-policy"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Terms and conditions",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{localBaseUrl}}/api/terms-and-conditions",
+							"host": [
+								"{{localBaseUrl}}"
+							],
+							"path": [
+								"api",
+								"terms-and-conditions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Testimonials",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{localBaseUrl}}/api/testimonial?populate=*",
+							"host": [
+								"{{localBaseUrl}}"
+							],
+							"path": [
+								"api",
+								"testimonial"
+							],
+							"query": [
+								{
+									"key": "populate",
+									"value": "*"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "faqs",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{localBaseUrl}}/api/faq?populate=*",
+							"host": [
+								"{{localBaseUrl}}"
+							],
+							"path": [
+								"api",
+								"faq"
+							],
+							"query": [
+								{
+									"key": "populate",
+									"value": "*"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Footer contents",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{localBaseUrl}}/api/neighbourly-footer?populate[firstColumn][populate]=*&populate[secondColumn][populate]=*&populate[thirdColumn][populate]=*",
+							"host": [
+								"{{localBaseUrl}}"
+							],
+							"path": [
+								"api",
+								"neighbourly-footer"
+							],
+							"query": [
+								{
+									"key": "populate[firstColumn][populate]",
+									"value": "*"
+								},
+								{
+									"key": "populate[secondColumn][populate]",
+									"value": "*"
+								},
+								{
+									"key": "populate[thirdColumn][populate]",
+									"value": "*"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "hosted-strapi-cloud",
+			"item": [
+				{
+					"name": "About page",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{hostedBaseUrl}}/api/about-page",
+							"host": [
+								"{{hostedBaseUrl}}"
+							],
+							"path": [
+								"api",
+								"about-page"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Privacy policy",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{hostedBaseUrl}}/api/privacy-policy",
+							"host": [
+								"{{hostedBaseUrl}}"
+							],
+							"path": [
+								"api",
+								"privacy-policy"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Terms and conditions",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{hostedBaseUrl}}/api/terms-and-conditions",
+							"host": [
+								"{{hostedBaseUrl}}"
+							],
+							"path": [
+								"api",
+								"terms-and-conditions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Testimonials",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{hostedBaseUrl}}/api/testimonial?populate=*",
+							"host": [
+								"{{hostedBaseUrl}}"
+							],
+							"path": [
+								"api",
+								"testimonial"
+							],
+							"query": [
+								{
+									"key": "populate",
+									"value": "*"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "faqs",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{hostedBaseUrl}}/api/faq?populate=*",
+							"host": [
+								"{{hostedBaseUrl}}"
+							],
+							"path": [
+								"api",
+								"faq"
+							],
+							"query": [
+								{
+									"key": "populate",
+									"value": "*"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Footer contents",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{hostedBaseUrl}}/api/neighbourly-footer?populate[firstColumn][populate]=*&populate[secondColumn][populate]=*&populate[thirdColumn][populate]=*",
+							"host": [
+								"{{hostedBaseUrl}}"
+							],
+							"path": [
+								"api",
+								"neighbourly-footer"
+							],
+							"query": [
+								{
+									"key": "populate[firstColumn][populate]",
+									"value": "*"
+								},
+								{
+									"key": "populate[secondColumn][populate]",
+									"value": "*"
+								},
+								{
+									"key": "populate[thirdColumn][populate]",
+									"value": "*"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
